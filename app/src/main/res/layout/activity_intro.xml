@@ -4,4 +4,130 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
+    <ImageView
+        android:id="@+id/img_google_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/google_logo" />
+
+    <TextView
+        android:id="@+id/tv_header_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header" />
+
+    <TextView
+        android:id="@+id/tv_sub_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_header" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:columnCount="5">
+
+        <ImageView
+            android:id="@+id/logo_admin"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_admin_128px" />
+
+        <ImageView
+            android:id="@+id/logo_calendar"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_calendar_128px" />
+
+        <ImageView
+            android:id="@+id/logo_docs"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_docs_128px" />
+
+        <ImageView
+            android:id="@+id/logo_drive"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_drive_128px" />
+
+        <ImageView
+            android:id="@+id/logo_forms"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_forms_128px" />
+
+        <ImageView
+            android:id="@+id/logo_gmail"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_gmail_128px" />
+
+        <ImageView
+            android:id="@+id/logo_google_plus"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_google_plus_128px" />
+
+        <ImageView
+            android:id="@+id/logo_groups"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_groups_128px" />
+
+        <ImageView
+            android:id="@+id/logo_hangouts"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_hangouts_128px" />
+
+        <ImageView
+            android:id="@+id/logo_sites"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_sites_128px" />
+
+        <ImageView
+            android:id="@+id/logo_slides"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_slides_128px" />
+
+        <ImageView
+            android:id="@+id/logo_vault"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/logo_vault_128px" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_account" />
+
+
 </LinearLayout>

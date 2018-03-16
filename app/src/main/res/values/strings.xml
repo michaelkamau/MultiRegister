@@ -13,4 +13,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="header">Create your Google Account</string>
+    <string name="sub_header">One free account gets you into everything Google.</string>
+    <string name="footer">Take it all with you</string>
+    <string name="register_account">Register for an account</string>
 </resources>
