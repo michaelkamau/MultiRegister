@@ -17,4 +17,7 @@
     <string name="sub_header">One free account gets you into everything Google.</string>
     <string name="footer">Take it all with you</string>
     <string name="register_account">Register for an account</string>
+    <string name="names_header">Create a Google Account</string>
+    <string name="names_info_label">We would like to know you before we start account registration. Please fill your first name and last name below.</string>
+    <string name="next">Continue</string>
 </resources>
