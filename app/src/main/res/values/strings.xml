@@ -22,4 +22,9 @@
     <string name="next">Continue</string>
     <string name="back">Back</string>
     <string name="basic_info">Please enter your birth day and gender below:</string>
+    <string name="day_label">Day</string>
+    <string name="month_label">Month</string>
+    <string name="year_label">Year</string>
+    <string name="day_gender">Gender</string>
+    <string name="custom_gender_prompt">What\'s your gender?</string>
 </resources>
