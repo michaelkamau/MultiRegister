@@ -27,4 +27,8 @@
     <string name="year_label">Year</string>
     <string name="day_gender">Gender</string>
     <string name="custom_gender_prompt">What\'s your gender?</string>
+    <string name="username_header">How you\'ll sign in</string>
+    <string name="username_subheader">You\'ll use this username to sign in to your Google account</string>
+    <string name="gmail_suffix">\@gmail.com</string>
+    <string name="username_rules">Only use characters A-Z, a-z, 0-9</string>
 </resources>
