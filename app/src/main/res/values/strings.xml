@@ -30,5 +30,9 @@
     <string name="username_header">How you\'ll sign in</string>
     <string name="username_subheader">You\'ll use this username to sign in to your Google account</string>
     <string name="gmail_suffix">\@gmail.com</string>
-    <string name="username_rules">Only use characters A-Z, a-z, 0-9</string>
+    <string name="username_rules">Only use characters A–Z, a–z, 0-9</string>
+    <string name="password_header">Create Password</string>
+    <string name="password_subheader">Create a strong password with a mixture of letter, numbes and symbols</string>
+    <string name="create_password">Create password</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>
