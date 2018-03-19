@@ -20,4 +20,6 @@
     <string name="names_header">Create a Google Account</string>
     <string name="names_info_label">We would like to know you before we start account registration. Please fill your first name and last name below.</string>
     <string name="next">Continue</string>
+    <string name="back">Back</string>
+    <string name="basic_info">Please enter your birth day and gender below:</string>
 </resources>
