@@ -2,7 +2,7 @@ package mikekamau.com.multiregister;
 
 import java.time.LocalDateTime;
 
-public class UserInfo {
+public class User {
 
     private String firstName;
     private String lastName;
