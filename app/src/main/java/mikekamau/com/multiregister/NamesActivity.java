@@ -24,7 +24,8 @@ public class NamesActivity extends AppCompatActivity {
     private TextView lNameError;
     private TextView firstNameLabel;
     private TextView lastNameLabel;
-    private boolean properNamesFound = false;
+    private boolean properFNameFound = false;
+    private boolean properLNameFound = false;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -42,6 +43,7 @@ public class NamesActivity extends AppCompatActivity {
         btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                fetchNames();
                 launchPasswordActivity();
             }
         });
@@ -61,12 +63,15 @@ public class NamesActivity extends AppCompatActivity {
                 String input = s.toString();
                 if (input.trim().length() == 0) {
                     fNameError.setVisibility(View.VISIBLE);
-                    properNamesFound = false;
-                    btnContinue.setEnabled(false);
+                    properFNameFound = false;
                 } else {
                     fNameError.setVisibility(View.INVISIBLE);
-                    properNamesFound = true;
+                    properFNameFound = true;
+                }
+                if (properFNameFound && properLNameFound){
                     btnContinue.setEnabled(true);
+                }else{
+                    btnContinue.setEnabled(false);
                 }
             }
         });
@@ -86,12 +91,15 @@ public class NamesActivity extends AppCompatActivity {
                 String input = s.toString();
                 if (input.trim().length() == 0) {
                     lNameError.setVisibility(View.VISIBLE);
-                    properNamesFound = false;
-                    btnContinue.setEnabled(false);
+                    properLNameFound = false;
                 } else {
                     lNameError.setVisibility(View.INVISIBLE);
-                    properNamesFound = true;
+                    properLNameFound = true;
+                }
+                if (properFNameFound && properLNameFound){
                     btnContinue.setEnabled(true);
+                } else{
+                    btnContinue.setEnabled(false);
                 }
             }
         });
