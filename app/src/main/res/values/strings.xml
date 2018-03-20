@@ -43,4 +43,6 @@
     <string name="phone_privacy_statement">This won\'t make your phone number public</string>
     <string name="sms_usage">Google will verify that this number with SMS (charges may apply) or by exchanging your number and device information with your mobile operator. If it belongs to this phone we\'ll verify occasionally so that your account stays up to date. Any number verified with on this phone will also be added to your account.</string>
     <string name="skip">Skip</string>
+    <string name="accept_terms">Accept Terms and Continue</string>
+    <string name="privacy_header">Please review Google privacy terms before continuing</string>
 </resources>
