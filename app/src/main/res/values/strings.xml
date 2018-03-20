@@ -36,4 +36,11 @@
     <string name="create_password">Create password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="password_help">The password must have at least 8 characters</string>
+    <string name="phone_number_header">Add Phone Number</string>
+    <string name="phone_number_justification">This phone number will be used for such things as password reset, receiving shared photos and videos and more personalised Google services including ads</string>
+    <string name="countries">Country</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_privacy_statement">This won\'t make your phone number public</string>
+    <string name="sms_usage">Google will verify that this number with SMS (charges may apply) or by exchanging your number and device information with your mobile operator. If it belongs to this phone we\'ll verify occasionally so that your account stays up to date. Any number verified with on this phone will also be added to your account.</string>
+    <string name="skip">Skip</string>
 </resources>
