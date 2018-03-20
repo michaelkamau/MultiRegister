@@ -45,4 +45,6 @@
     <string name="skip">Skip</string>
     <string name="accept_terms">Accept Terms and Continue</string>
     <string name="privacy_header">Please review Google privacy terms before continuing</string>
+    <string name="first_name_empty_error">First name cannot be empty. Please type your first name</string>
+    <string name="last_name_empty_error">Last name cannot be empty. Please type your first name</string>
 </resources>
